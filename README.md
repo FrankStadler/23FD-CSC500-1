@@ -1,5 +1,5 @@
 # 23FD-CSC500-1
 
 ## Module 1
-[a relative link](Module1/Part1.py)
-[a relative link](Module1/Part2.py)
+[Part1.py](Module1/Part1.py)  
+[Part2.py](Module1/Part2.py)  
