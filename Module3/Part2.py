@@ -21,7 +21,7 @@ def main():
         current_hour = int(current_hour)
 
     # ask user for input - number of hours
-    number_of_hours = input('Please enter the number of hours you would like to add, whole number greater than 0: ')
+    number_of_hours = input('Please enter the number of hours you would like to add, whole number 0 or greater: ')
     if not number_of_hours.isnumeric():
         # not valid, so display error message and exit
         print('Sorry, number of hours not in a valid format')
