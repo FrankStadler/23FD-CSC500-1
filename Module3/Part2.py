@@ -26,11 +26,6 @@ def main():
         # not valid, so display error message and exit
         print('Sorry, number of hours not in a valid format')
         return
-    elif int(number_of_hours) < 0:
-        # we don't accept negative hours for this calculation.
-        # display error message and exit
-        print('Sorry, no negative numbers for this calculation')
-        return
     else:
         # convert to integer value for use with later calculations
         number_of_hours = int(number_of_hours)
