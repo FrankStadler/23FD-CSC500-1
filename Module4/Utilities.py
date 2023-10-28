@@ -12,7 +12,7 @@ def get_and_validate_int(prompt):
 # and repeats until the user enters a conforming value
 def get_and_validate_float(prompt):
     input_value = input(prompt)
-    while not is_float(input_value):
+    while not is_float(input_value) or float(input_value) <= 0:
         print('Sorry, invalid value, please try again.')
         input_value = input(prompt)
     return float(input_value)
