@@ -8,4 +8,8 @@
 [Part2.py](Module3/Part2.py) 
 ## Module 4
 [Milestone.py](Module4/Milestone.py)  
-[Utilities.py](Module3/Utilities.py) 
+[Utilities.py](Module4/Utilities.py) 
+## Module 5
+[Part1.py](Module5/Part1.py)
+[Part2.py](Module5/Part2.py)    
+[Utilities.py](Module5/Utilities.py) 
