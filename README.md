@@ -13,3 +13,6 @@
 [Part1.py](Module5/Part1.py)
 [Part2.py](Module5/Part2.py)    
 [Utilities.py](Module5/Utilities.py) 
+## Module 6
+[utilities.py](Module6/utilities.py)
+[milestone.py](Module6/milestone.py)
