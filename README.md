@@ -16,3 +16,6 @@
 ## Module 6
 [utilities.py](Module6/utilities.py)
 [milestone.py](Module6/milestone.py)
+## Module 7
+[Module7.py](Module7/Module7.py)  
+
