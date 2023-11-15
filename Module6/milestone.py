@@ -45,6 +45,7 @@ class ShoppingCart:
         self.customer_name = 'none'
         # set current date attribute to default value of January 1, 2020
         self.current_date = 'January 1, 2020'
+        self.cart_items = []
 
     # parameterized class constructor
     def __init__(self, customer_name, current_date):
@@ -53,6 +54,7 @@ class ShoppingCart:
         self.customer_name = customer_name
         # set current date attribute of object to be the date passed in to the constructor as a parameter
         self.current_date = current_date
+        self.cart_items = []
 
     # methods for ShoppingCart class
 
