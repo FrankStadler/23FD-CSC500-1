@@ -8,11 +8,6 @@ import datetime
 
 # Define class ItemToPurchase
 class ItemToPurchase:
-    # Class Attributes
-    item_name = ''
-    item_price = 0.0
-    item_quantity = 0
-    item_description = ''
 
     # Class Constructor
     def __init__(self):
@@ -30,30 +25,14 @@ class ItemToPurchase:
 
 # Defines class ShoppingCart
 class ShoppingCart:
-    # class attributes
-    # customer name  attribute
-    customer_name = ''
-    # current date attribute
-    current_date = ''
-    # cart items as a list
-    cart_items = []
-
-    # default class constructor
-    def __init__(self):
-        # Sets initial values for newly instantiated object per our specs
-        # set customer name attribute to a default value of none
-        self.customer_name = 'none'
-        # set current date attribute to default value of January 1, 2020
-        self.current_date = 'January 1, 2020'
-        self.cart_items = []
-
     # parameterized class constructor
-    def __init__(self, customer_name, current_date):
+    def __init__(self, customer_name = 'none', current_date = 'January 1, 2020'):
         # Sets initial values for newly instantiated object per our specs
         # set customer name attribute of object to the name passed in to the constructor as a parameter
         self.customer_name = customer_name
         # set current date attribute of object to be the date passed in to the constructor as a parameter
         self.current_date = current_date
+        # cart items as a list
         self.cart_items = []
 
     # methods for ShoppingCart class
