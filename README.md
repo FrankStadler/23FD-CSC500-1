@@ -18,4 +18,6 @@
 [milestone.py](Module6/milestone.py)
 ## Module 7
 [Module7.py](Module7/Module7.py)  
-
+## Module 8
+[utilities.py](Module8/utilities.py)
+[milestone.py](Module8/milestone.py)
